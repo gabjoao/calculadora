@@ -1,1 +1,1 @@
-# calculadoraC
+Calculadora feita em C
