@@ -17,7 +17,7 @@ void main(){
         
         do{ 
        
-         printf("Informe a operação desejada:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-pOTENCIAÇÃO\n");
+         printf("Informe a operação desejada:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Potenciação\n6Radiciação\n\n");
          scanf("%d", &op);
     
          } while ((op > 5) || (op < 1));
@@ -46,16 +46,20 @@ void main(){
         resultado = n1 / n2;
         break;
         
-        
-        case 5:
-          resultado = (n1 * n1);
-          for(a=0; a <= n2; a++)
-            resultado = resultado * n1;
-        break;
+      //  case 5:
+      //    resultado = (n1 * n1);
+      //    for(a=0; a <= n2; a++)
+      //      resultado = resultado * n1;
+      //  break;
+
+      // case 6:
+      
+      // break;
         
     }
-
     
+
+
     printf("\nO resultado é: %.1f", resultado);
     printf("\nDesja continuar? Digite 1 para SIM ou 2 para NÃO: ");
     scanf("%d", &opcao);
