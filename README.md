@@ -1,1 +1,1 @@
-Calculadora feita em C
+Calculadora com operações básicas feitas em C.
